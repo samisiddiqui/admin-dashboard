@@ -1,0 +1,19 @@
+* {
+    color: white;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1.5fr 8.5fr;
+    height: 100vh;
+}
+
+.left {
+    grid-row: 1 / 2 ;
+    background-color: blue;
+}
+
+.right {
+    grid-row: 1 / 2;
+    background-color: gray;
+}
